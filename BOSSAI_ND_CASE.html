@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>b1a51e5f05fd4ccd9864c0656128cc08</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="cell code" data-execution_count="2" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="7zksS4Av0WUZ" data-outputId="02aedd74-3f3e-4b76-b436-f19b3c1b031b">
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Mount drive</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> google.colab <span class="im">import</span> drive</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>drive.mount(<span class="st">&#39;/content/drive&#39;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Mounted at /content/drive
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="3" id="BoOYDIbT0S_Y">
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Import necessary libraries</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> sklearn</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn <span class="im">import</span> metrics</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split, GridSearchCV</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.ensemble <span class="im">import</span> RandomForestClassifier</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> accuracy_score, precision_score, recall_score, f1_score, precision_recall_curve, roc_curve</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> xgboost <span class="im">as</span> xgb</span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> imblearn</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> imblearn.over_sampling <span class="im">import</span> SMOTE</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="4" id="lW7-_GCI0o45">
+<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Read in data</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> pd.read_csv(<span class="st">&#39;/content/drive/MyDrive/IndependentProjects/BOSS_AI_PROJECT/ND_Analytics_Challenge_Dataset.csv&#39;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="5" id="P1bYsaT_nCXN">
+<div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Separate data to date, time, and convert these columns (and datetime) to a datetime</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Create empty lists for date and time values</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>dates <span class="op">=</span> []</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>times <span class="op">=</span> []</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>days <span class="op">=</span> []</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>months <span class="op">=</span> []</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>years <span class="op">=</span> []</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>hours <span class="op">=</span> []</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>minutes <span class="op">=</span> []</span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert column to list</span></span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>datetimes <span class="op">=</span> data[<span class="st">&#39;datetime&#39;</span>].tolist()</span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Iterate through all datetimes</span></span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> datetime <span class="kw">in</span> datetimes:</span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Strip date and time from splitting string</span></span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>    date <span class="op">=</span> datetime.split(<span class="st">&#39; &#39;</span>)[<span class="dv">0</span>]</span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>    time <span class="op">=</span> datetime.split(<span class="st">&#39; &#39;</span>)[<span class="dv">1</span>]</span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Append date and time to list</span></span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a>    dates.append(date)</span>
+<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a>    times.append(time)</span>
+<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Strip year, month, and day from splitting date string</span></span>
+<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a>    year <span class="op">=</span> date.split(<span class="st">&#39;-&#39;</span>)[<span class="dv">0</span>]</span>
+<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a>    month <span class="op">=</span> date.split(<span class="st">&#39;-&#39;</span>)[<span class="dv">1</span>]</span>
+<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a>    day <span class="op">=</span> date.split(<span class="st">&#39;-&#39;</span>)[<span class="dv">2</span>]</span>
+<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Append year, month, and day to list</span></span>
+<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a>    years.append(year)</span>
+<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a>    months.append(month)</span>
+<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a>    days.append(day)</span>
+<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Strip hour and minute from splitting time string</span></span>
+<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a>    hour <span class="op">=</span> time.split(<span class="st">&#39;:&#39;</span>)[<span class="dv">0</span>]</span>
+<span id="cb5-34"><a href="#cb5-34" aria-hidden="true" tabindex="-1"></a>    minute <span class="op">=</span> time.split(<span class="st">&#39;:&#39;</span>)[<span class="dv">1</span>]</span>
+<span id="cb5-35"><a href="#cb5-35" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Append hour and minute to list</span></span>
+<span id="cb5-36"><a href="#cb5-36" aria-hidden="true" tabindex="-1"></a>    hours.append(hour)</span>
+<span id="cb5-37"><a href="#cb5-37" aria-hidden="true" tabindex="-1"></a>    minutes.append(minute)</span>
+<span id="cb5-38"><a href="#cb5-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-39"><a href="#cb5-39" aria-hidden="true" tabindex="-1"></a><span class="co"># Set columns equal to lists</span></span>
+<span id="cb5-40"><a href="#cb5-40" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;date&#39;</span>] <span class="op">=</span> dates</span>
+<span id="cb5-41"><a href="#cb5-41" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;time&#39;</span>] <span class="op">=</span> times</span>
+<span id="cb5-42"><a href="#cb5-42" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;year&#39;</span>] <span class="op">=</span> years</span>
+<span id="cb5-43"><a href="#cb5-43" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;month&#39;</span>] <span class="op">=</span> months</span>
+<span id="cb5-44"><a href="#cb5-44" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;day&#39;</span>] <span class="op">=</span> days</span>
+<span id="cb5-45"><a href="#cb5-45" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;hour&#39;</span>] <span class="op">=</span> hours</span>
+<span id="cb5-46"><a href="#cb5-46" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;minute&#39;</span>] <span class="op">=</span> minutes</span>
+<span id="cb5-47"><a href="#cb5-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-48"><a href="#cb5-48" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert all three columns to datetimes</span></span>
+<span id="cb5-49"><a href="#cb5-49" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;datetime&#39;</span>] <span class="op">=</span> pd.to_datetime(data[<span class="st">&#39;datetime&#39;</span>], <span class="bu">format</span><span class="op">=</span><span class="st">&#39;%Y-%m-</span><span class="sc">%d</span><span class="st"> %H:%M:%S&#39;</span>)</span>
+<span id="cb5-50"><a href="#cb5-50" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;date&#39;</span>] <span class="op">=</span> pd.to_datetime(data[<span class="st">&#39;date&#39;</span>], <span class="bu">format</span><span class="op">=</span><span class="st">&#39;%Y-%m-</span><span class="sc">%d</span><span class="st">&#39;</span>)</span>
+<span id="cb5-51"><a href="#cb5-51" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;time&#39;</span>] <span class="op">=</span> pd.to_datetime(data[<span class="st">&#39;time&#39;</span>], <span class="bu">format</span><span class="op">=</span><span class="st">&#39;%H:%M:%S&#39;</span>)</span>
+<span id="cb5-52"><a href="#cb5-52" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-53"><a href="#cb5-53" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;day_of_week&#39;</span>] <span class="op">=</span> data[<span class="st">&#39;datetime&#39;</span>].dt.day_name()</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="6" id="IVMLjsCUwkll">
+<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create new experimental columns to look for distinct relationsips</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;sum_to_avg_ratio&#39;</span>] <span class="op">=</span> data[<span class="st">&#39;sum_amount&#39;</span>] <span class="op">/</span> data[<span class="st">&#39;avg_amount_per_user&#39;</span>] <span class="co"># Essentially number of users at a given time</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;sum_times_avg&#39;</span>] <span class="op">=</span> data[<span class="st">&#39;sum_amount&#39;</span>] <span class="op">*</span> data[<span class="st">&#39;avg_amount_per_user&#39;</span>]</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> data[[<span class="st">&#39;datetime&#39;</span>, <span class="st">&#39;year&#39;</span>, <span class="st">&#39;month&#39;</span>, <span class="st">&#39;day&#39;</span>, <span class="st">&#39;day_of_week&#39;</span>, <span class="st">&#39;time&#39;</span>, <span class="st">&#39;hour&#39;</span>, <span class="st">&#39;minute&#39;</span>, <span class="st">&#39;sum_amount&#39;</span>, <span class="st">&#39;avg_amount_per_user&#39;</span>, <span class="st">&#39;sum_to_avg_ratio&#39;</span>, <span class="st">&#39;sum_times_avg&#39;</span>,<span class="st">&#39;anomaly&#39;</span>]]</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="12" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="AZ5eSFHHvTI1" data-outputId="8307738d-6681-4bbe-d0fb-79dee43c228d">
+<div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Separate data into normal and anomalies for graphing purposes</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>normal <span class="op">=</span> data[data[<span class="st">&#39;anomaly&#39;</span>] <span class="op">==</span> <span class="va">False</span>]</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>anomaly <span class="op">=</span> data[data[<span class="st">&#39;anomaly&#39;</span>] <span class="op">==</span> <span class="va">True</span>]</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="bu">len</span>(normal))</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="bu">len</span>(anomaly))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>12233
+41
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="13" id="2rBrPg8q-sjY">
+<div class="sourceCode" id="cb9"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot the relationship between columns</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> plot_relationship(col1, col2, normal, anomaly):</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>    fig, ax <span class="op">=</span> plt.subplots(figsize<span class="op">=</span>(<span class="dv">14</span>, <span class="dv">7</span>))</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>    plt.scatter(normal[col1], normal[col2])</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>    plt.scatter(anomaly[col1], anomaly[col2])</span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>    plt.xlabel(col1, fontsize<span class="op">=</span><span class="dv">18</span>)</span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>    plt.ylabel(col2, fontsize<span class="op">=</span><span class="dv">18</span>)</span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>    plt.title(col2 <span class="op">+</span> <span class="st">&#39; vs &#39;</span> <span class="op">+</span> col1, fontsize<span class="op">=</span><span class="dv">20</span>)</span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a>    plt.legend([<span class="st">&#39;Non-Anomaly&#39;</span>, <span class="st">&#39;Anomaly&#39;</span>], fontsize<span class="op">=</span><span class="dv">18</span>)</span>
+<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a>    ax.set_ylim(bottom<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a>    plt.show()</span>
+<span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&#39; &#39;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="14" data-colab="{&quot;height&quot;:1000,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="Jqj6TJzcJcPT" data-outputId="91621ded-7e51-45e8-dcf3-3e1a1d778c27">
+<div class="sourceCode" id="cb10"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>original_metrics <span class="op">=</span> [<span class="st">&#39;sum_amount&#39;</span>, <span class="st">&#39;avg_amount_per_user&#39;</span>, <span class="st">&#39;sum_to_avg_ratio&#39;</span>]</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>plot_relationship(original_metrics[<span class="dv">0</span>], original_metrics[<span class="dv">1</span>], normal, anomaly)</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>plot_relationship(original_metrics[<span class="dv">0</span>], original_metrics[<span class="dv">2</span>], normal, anomaly)</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>plot_relationship(original_metrics[<span class="dv">1</span>], original_metrics[<span class="dv">2</span>], normal, anomaly)</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_bd8247e56b984523954f8e3002320ef0/37184f6e91d5e3742b51d1482c329dae403097bf.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code> 
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_bd8247e56b984523954f8e3002320ef0/cc184d97c4ea83a5ea521c086949a3a220aa9e50.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code> 
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_bd8247e56b984523954f8e3002320ef0/372bd917ae02432a56e4931a1dfed532197a0cf4.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code> 
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="15" data-colab="{&quot;height&quot;:1000,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="_-hevuzM_Bi8" data-outputId="36483dd6-6c99-4ad6-ae15-631bc6b83299">
+<div class="sourceCode" id="cb14"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>original_metrics <span class="op">=</span> [<span class="st">&#39;sum_amount&#39;</span>, <span class="st">&#39;avg_amount_per_user&#39;</span>]</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>new_metrics <span class="op">=</span> [<span class="st">&#39;sum_to_avg_ratio&#39;</span>, <span class="st">&#39;sum_times_avg&#39;</span>]</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot original columns relationship</span></span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;ORIGINAL METRICS:&#39;</span>)</span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>plot_relationship(original_metrics[<span class="dv">0</span>], original_metrics[<span class="dv">1</span>], normal, anomaly)</span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot new columns relationship</span></span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;DERIVED METRICS:&#39;</span>)</span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a>plot_relationship(new_metrics[<span class="dv">0</span>], new_metrics[<span class="dv">1</span>], normal, anomaly)</span>
+<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot original metrics over time</span></span>
+<span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;ALL METRICS OVER TOTAL TIME PERIOD&#39;</span>)</span>
+<span id="cb14-12"><a href="#cb14-12" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> col <span class="kw">in</span> original_metrics:</span>
+<span id="cb14-13"><a href="#cb14-13" aria-hidden="true" tabindex="-1"></a>    plot_relationship(<span class="st">&#39;datetime&#39;</span>, col, normal, anomaly)</span>
+<span id="cb14-14"><a href="#cb14-14" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> col <span class="kw">in</span> new_metrics:</span>
+<span id="cb14-15"><a href="#cb14-15" aria-hidden="true" tabindex="-1"></a>    plot_relationship(<span class="st">&#39;datetime&#39;</span>, col, normal, anomaly)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>ORIGINAL METRICS:
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_bd8247e56b984523954f8e3002320ef0/37184f6e91d5e3742b51d1482c329dae403097bf.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code> 
+DERIVED METRICS:
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_bd8247e56b984523954f8e3002320ef0/a4e1714995f5e0807b4ad156db77f8856ca5c751.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code> 
+ALL METRICS OVER TOTAL TIME PERIOD
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_bd8247e56b984523954f8e3002320ef0/0ea4194a0409858b6ba87b5eee9f020cc6f07e5a.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code> 
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_bd8247e56b984523954f8e3002320ef0/f8d0cb542fa220d90481e21625cc59c70f0a355a.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code> 
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_bd8247e56b984523954f8e3002320ef0/07835ec286a6552c6541346657108798f92670aa.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code> 
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_bd8247e56b984523954f8e3002320ef0/fa48f5977b953118e6a1ceaa660f38f26e963ebe.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code> 
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="16" data-colab="{&quot;height&quot;:1000,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="mrQoJ_vaPBaZ" data-outputId="e521ffd3-a295-4be7-dfcd-c0cf8693cb65">
+<div class="sourceCode" id="cb22"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Look for seasonality by month, day, day of week, hour, minute</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>datetime_components <span class="op">=</span> [<span class="st">&#39;year&#39;</span>, <span class="st">&#39;month&#39;</span>, <span class="st">&#39;day&#39;</span>, <span class="st">&#39;day_of_week&#39;</span>, <span class="st">&#39;hour&#39;</span>, <span class="st">&#39;minute&#39;</span>]</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> component <span class="kw">in</span> datetime_components:</span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> metric <span class="kw">in</span> original_metrics:</span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a>        plot_relationship(component, metric, normal.sort_values(by<span class="op">=</span>[component]), anomaly.sort_values(by<span class="op">=</span>[component]))</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_bd8247e56b984523954f8e3002320ef0/9de1be19699ae952fff7d382bfdcb3c21162a958.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code> 
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_bd8247e56b984523954f8e3002320ef0/c3ed48338245c28de8c0fa725d1a00198bd9c341.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code> 
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_bd8247e56b984523954f8e3002320ef0/9dffd89f793ee186f063c67828adf1a79456e4b3.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code> 
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_bd8247e56b984523954f8e3002320ef0/b1eaef368fda45f8c1150efa4f56b64b6b852852.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code> 
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_bd8247e56b984523954f8e3002320ef0/2b497e0dcf9bbb8c3dac9901107d1113d7a8345c.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code> 
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_bd8247e56b984523954f8e3002320ef0/042e76f27ecccd232b2d0653c3dd93cc475ce2de.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code> 
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_bd8247e56b984523954f8e3002320ef0/70b99666352cbc9ef835b5e7ff33766e4a350aa9.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code> 
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_bd8247e56b984523954f8e3002320ef0/85a05dda28c4bc5ba8dc60d559c55fe84514707e.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code> 
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_bd8247e56b984523954f8e3002320ef0/ed55896a51f6940b5386c84062239ed8e3e83d83.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code> 
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_bd8247e56b984523954f8e3002320ef0/8c27c7e1b61c8fdccc5d4e13c061f28765841f8c.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code> 
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_bd8247e56b984523954f8e3002320ef0/06cffdc7e16c6f44c7129dfc2a171d6f7f964f5c.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code> 
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_bd8247e56b984523954f8e3002320ef0/ff48c88239bba93c2026ffafde48c758f07da8af.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code> 
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="17" id="LFdiNFL0_CTg">
+<div class="sourceCode" id="cb35"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Generates accuracy, precision, recall, f1, and confusion matrix for a model&#39;s prediction</span></span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> generate_results(y_test, predictions, model_type):</span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a>    accuracy <span class="op">=</span> accuracy_score(y_test, predictions)</span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a>    precision <span class="op">=</span> precision_score(y_test, predictions)</span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a>    recall <span class="op">=</span> recall_score(y_test, predictions)</span>
+<span id="cb35-7"><a href="#cb35-7" aria-hidden="true" tabindex="-1"></a>    f1 <span class="op">=</span> f1_score(y_test, predictions)</span>
+<span id="cb35-8"><a href="#cb35-8" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&#39;</span><span class="sc">{</span>model_type<span class="sc">}</span><span class="ss"> results:&#39;</span>)</span>
+<span id="cb35-9"><a href="#cb35-9" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&#39;</span><span class="ch">\t</span><span class="ss">Accuracy: </span><span class="sc">{</span>accuracy<span class="sc">}</span><span class="ch">\n\t</span><span class="ss">Precision: </span><span class="sc">{</span>precision<span class="sc">}</span><span class="ch">\n\t</span><span class="ss">Recall: </span><span class="sc">{</span>recall<span class="sc">}</span><span class="ch">\n\t</span><span class="ss">F1: </span><span class="sc">{f1}</span><span class="ss">&#39;</span>)</span>
+<span id="cb35-10"><a href="#cb35-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-11"><a href="#cb35-11" aria-hidden="true" tabindex="-1"></a>    confusion_matrix <span class="op">=</span> metrics.confusion_matrix(y_test, predictions)</span>
+<span id="cb35-12"><a href="#cb35-12" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&#39;Confusion Matrix:&#39;</span>)</span>
+<span id="cb35-13"><a href="#cb35-13" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&#39;</span><span class="sc">{</span>confusion_matrix<span class="sc">}</span><span class="ch">\n\n</span><span class="ss">&#39;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="18" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="3DPPRHp5de7S" data-outputId="9893127e-6650-4c7c-9075-4191bc2868ee">
+<div class="sourceCode" id="cb36"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Rune PRESECRIPTIVE model based on given data -- should not be used for future predictions</span></span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Maps day of week to a number so that it can be used as a predictive value in model</span></span>
+<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a>day_of_week_map <span class="op">=</span> {<span class="st">&#39;Sunday&#39;</span>: <span class="dv">1</span>, <span class="st">&#39;Monday&#39;</span>: <span class="dv">2</span>, <span class="st">&#39;Tuesday&#39;</span>: <span class="dv">3</span>, <span class="st">&#39;Wednesday&#39;</span>: <span class="dv">4</span>, <span class="st">&#39;Thursday&#39;</span>: <span class="dv">5</span>, <span class="st">&#39;Friday&#39;</span>: <span class="dv">6</span>, <span class="st">&#39;Saturday&#39;</span>: <span class="dv">7</span>}</span>
+<span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-6"><a href="#cb36-6" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> data[[<span class="st">&#39;year&#39;</span>, <span class="st">&#39;month&#39;</span>, <span class="st">&#39;day&#39;</span>, <span class="st">&#39;hour&#39;</span>, <span class="st">&#39;minute&#39;</span>, <span class="st">&#39;day_of_week&#39;</span>,<span class="st">&#39;avg_amount_per_user&#39;</span>, <span class="st">&#39;sum_amount&#39;</span>, <span class="st">&#39;sum_to_avg_ratio&#39;</span>]]</span>
+<span id="cb36-7"><a href="#cb36-7" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> data[<span class="st">&#39;anomaly&#39;</span>]</span>
+<span id="cb36-8"><a href="#cb36-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-9"><a href="#cb36-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Map all days of week to number values</span></span>
+<span id="cb36-10"><a href="#cb36-10" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> index <span class="kw">in</span> x.index:</span>
+<span id="cb36-11"><a href="#cb36-11" aria-hidden="true" tabindex="-1"></a>    x.at[index, <span class="st">&#39;day_of_week&#39;</span>] <span class="op">=</span> day_of_week_map[x.at[index, <span class="st">&#39;day_of_week&#39;</span>]]</span>
+<span id="cb36-12"><a href="#cb36-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-13"><a href="#cb36-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Change all columns to numeric</span></span>
+<span id="cb36-14"><a href="#cb36-14" aria-hidden="true" tabindex="-1"></a>x[<span class="st">&#39;year&#39;</span>] <span class="op">=</span> pd.to_numeric(x[<span class="st">&#39;year&#39;</span>])</span>
+<span id="cb36-15"><a href="#cb36-15" aria-hidden="true" tabindex="-1"></a>x[<span class="st">&#39;month&#39;</span>] <span class="op">=</span> pd.to_numeric(x[<span class="st">&#39;month&#39;</span>])</span>
+<span id="cb36-16"><a href="#cb36-16" aria-hidden="true" tabindex="-1"></a>x[<span class="st">&#39;day&#39;</span>] <span class="op">=</span> pd.to_numeric(x[<span class="st">&#39;day&#39;</span>])</span>
+<span id="cb36-17"><a href="#cb36-17" aria-hidden="true" tabindex="-1"></a>x[<span class="st">&#39;hour&#39;</span>] <span class="op">=</span> pd.to_numeric(x[<span class="st">&#39;hour&#39;</span>])</span>
+<span id="cb36-18"><a href="#cb36-18" aria-hidden="true" tabindex="-1"></a>x[<span class="st">&#39;minute&#39;</span>] <span class="op">=</span> pd.to_numeric(x[<span class="st">&#39;minute&#39;</span>])</span>
+<span id="cb36-19"><a href="#cb36-19" aria-hidden="true" tabindex="-1"></a>x[<span class="st">&#39;day_of_week&#39;</span>] <span class="op">=</span> pd.to_numeric(x[<span class="st">&#39;day_of_week&#39;</span>])</span>
+<span id="cb36-20"><a href="#cb36-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-21"><a href="#cb36-21" aria-hidden="true" tabindex="-1"></a><span class="co"># Generate training and testing sets</span></span>
+<span id="cb36-22"><a href="#cb36-22" aria-hidden="true" tabindex="-1"></a>x_train, x_test, y_train, y_test <span class="op">=</span> train_test_split(x, y, test_size<span class="op">=</span><span class="fl">.3</span>, stratify<span class="op">=</span>y, random_state<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb36-23"><a href="#cb36-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-24"><a href="#cb36-24" aria-hidden="true" tabindex="-1"></a><span class="co"># Run XGB model with default hyperparameters</span></span>
+<span id="cb36-25"><a href="#cb36-25" aria-hidden="true" tabindex="-1"></a>xgb_clf <span class="op">=</span> xgb.XGBClassifier()</span>
+<span id="cb36-26"><a href="#cb36-26" aria-hidden="true" tabindex="-1"></a>xgb_clf.fit(x_train, y_train)</span>
+<span id="cb36-27"><a href="#cb36-27" aria-hidden="true" tabindex="-1"></a>xgb_predictions <span class="op">=</span> xgb_clf.predict(x_test)</span>
+<span id="cb36-28"><a href="#cb36-28" aria-hidden="true" tabindex="-1"></a>generate_results(y_test, xgb_predictions, <span class="st">&#39;XGBOOST&#39;</span>)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>/usr/local/lib/python3.7/dist-packages/ipykernel_launcher.py:14: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  
+/usr/local/lib/python3.7/dist-packages/ipykernel_launcher.py:15: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  from ipykernel import kernelapp as app
+/usr/local/lib/python3.7/dist-packages/ipykernel_launcher.py:16: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  app.launch_new_instance()
+/usr/local/lib/python3.7/dist-packages/ipykernel_launcher.py:17: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+/usr/local/lib/python3.7/dist-packages/ipykernel_launcher.py:18: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+/usr/local/lib/python3.7/dist-packages/ipykernel_launcher.py:19: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>XGBOOST results:
+	Accuracy: 0.9989139288623404
+	Precision: 0.7857142857142857
+	Recall: 0.9166666666666666
+	F1: 0.8461538461538461
+Confusion Matrix:
+[[3668    3]
+ [   1   11]]
+
+
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="19" id="upSOWfSqC5Xm">
+<div class="sourceCode" id="cb39"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Generate rolling averages for all metrics over last n reports</span></span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Set n to 336 (last week of data)</span></span>
+<span id="cb39-4"><a href="#cb39-4" aria-hidden="true" tabindex="-1"></a>n <span class="op">=</span> <span class="dv">336</span></span>
+<span id="cb39-5"><a href="#cb39-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-6"><a href="#cb39-6" aria-hidden="true" tabindex="-1"></a>our_metrics <span class="op">=</span> [<span class="st">&#39;sum_amount&#39;</span>, <span class="st">&#39;avg_amount_per_user&#39;</span>, <span class="st">&#39;sum_to_avg_ratio&#39;</span>, <span class="st">&#39;sum_times_avg&#39;</span>]</span>
+<span id="cb39-7"><a href="#cb39-7" aria-hidden="true" tabindex="-1"></a>metrics_values <span class="op">=</span> {<span class="st">&#39;sum_amount&#39;</span>: data.sum_amount.tolist(), <span class="st">&#39;avg_amount_per_user&#39;</span>: data.avg_amount_per_user.tolist(), <span class="st">&#39;sum_to_avg_ratio&#39;</span>: data.sum_to_avg_ratio.tolist(), <span class="st">&#39;sum_times_avg&#39;</span>: data.sum_times_avg.tolist()}</span>
+<span id="cb39-8"><a href="#cb39-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-9"><a href="#cb39-9" aria-hidden="true" tabindex="-1"></a>averages <span class="op">=</span> {}</span>
+<span id="cb39-10"><a href="#cb39-10" aria-hidden="true" tabindex="-1"></a>stdevs <span class="op">=</span> {}</span>
+<span id="cb39-11"><a href="#cb39-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-12"><a href="#cb39-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Initialize empty list for each metric&#39;s averages and stdevs</span></span>
+<span id="cb39-13"><a href="#cb39-13" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> metric <span class="kw">in</span> our_metrics:</span>
+<span id="cb39-14"><a href="#cb39-14" aria-hidden="true" tabindex="-1"></a>    averages[metric] <span class="op">=</span> []</span>
+<span id="cb39-15"><a href="#cb39-15" aria-hidden="true" tabindex="-1"></a>    stdevs[metric] <span class="op">=</span> []</span>
+<span id="cb39-16"><a href="#cb39-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-17"><a href="#cb39-17" aria-hidden="true" tabindex="-1"></a><span class="co"># For values that don&#39;t have n rows before them, make the average the current value and the stdev 1</span></span>
+<span id="cb39-18"><a href="#cb39-18" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>, n):</span>
+<span id="cb39-19"><a href="#cb39-19" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> metric <span class="kw">in</span> our_metrics:</span>
+<span id="cb39-20"><a href="#cb39-20" aria-hidden="true" tabindex="-1"></a>        averages[metric].append(metrics_values[metric][i])</span>
+<span id="cb39-21"><a href="#cb39-21" aria-hidden="true" tabindex="-1"></a>        stdevs[metric].append(<span class="dv">1</span>)</span>
+<span id="cb39-22"><a href="#cb39-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-23"><a href="#cb39-23" aria-hidden="true" tabindex="-1"></a><span class="co"># For valuess that have at least n rows before them, take the rolling average and stdev of that range </span></span>
+<span id="cb39-24"><a href="#cb39-24" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(n, <span class="bu">len</span>(data)):</span>
+<span id="cb39-25"><a href="#cb39-25" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> metric <span class="kw">in</span> our_metrics:</span>
+<span id="cb39-26"><a href="#cb39-26" aria-hidden="true" tabindex="-1"></a>        cur_avg <span class="op">=</span> np.average(metrics_values[metric][i<span class="op">-</span>n:i<span class="op">-</span><span class="dv">1</span>])</span>
+<span id="cb39-27"><a href="#cb39-27" aria-hidden="true" tabindex="-1"></a>        cur_stdev <span class="op">=</span> np.std(metrics_values[metric][i<span class="op">-</span>n:i<span class="op">-</span><span class="dv">1</span>])</span>
+<span id="cb39-28"><a href="#cb39-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-29"><a href="#cb39-29" aria-hidden="true" tabindex="-1"></a>        averages[metric].append(cur_avg)</span>
+<span id="cb39-30"><a href="#cb39-30" aria-hidden="true" tabindex="-1"></a>        stdevs[metric].append(cur_stdev)</span>
+<span id="cb39-31"><a href="#cb39-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-32"><a href="#cb39-32" aria-hidden="true" tabindex="-1"></a><span class="co"># Make df columns out of lists</span></span>
+<span id="cb39-33"><a href="#cb39-33" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;RA_sum_amount&#39;</span>] <span class="op">=</span> averages[<span class="st">&#39;sum_amount&#39;</span>]</span>
+<span id="cb39-34"><a href="#cb39-34" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;RA_avg_amount_per_user&#39;</span>] <span class="op">=</span> averages[<span class="st">&#39;avg_amount_per_user&#39;</span>]</span>
+<span id="cb39-35"><a href="#cb39-35" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;RA_sum_to_avg_ratio&#39;</span>] <span class="op">=</span> averages[<span class="st">&#39;sum_to_avg_ratio&#39;</span>]</span>
+<span id="cb39-36"><a href="#cb39-36" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;RA_sum_times_avg&#39;</span>] <span class="op">=</span> averages[<span class="st">&#39;sum_times_avg&#39;</span>]</span>
+<span id="cb39-37"><a href="#cb39-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-38"><a href="#cb39-38" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;RS_sum_amount&#39;</span>] <span class="op">=</span> stdevs[<span class="st">&#39;sum_amount&#39;</span>]</span>
+<span id="cb39-39"><a href="#cb39-39" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;RS_avg_amount_per_user&#39;</span>] <span class="op">=</span> stdevs[<span class="st">&#39;avg_amount_per_user&#39;</span>]</span>
+<span id="cb39-40"><a href="#cb39-40" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;RS_sum_to_avg_ratio&#39;</span>] <span class="op">=</span> stdevs[<span class="st">&#39;sum_to_avg_ratio&#39;</span>]</span>
+<span id="cb39-41"><a href="#cb39-41" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;RS_sum_times_avg&#39;</span>] <span class="op">=</span> stdevs[<span class="st">&#39;sum_times_avg&#39;</span>]</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="20" id="88ofKdp-TnLb">
+<div class="sourceCode" id="cb40"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create averages and stdevs for all metrics in given month, day of month, day of week, and hour to account for seasonality</span></span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a>our_metrics <span class="op">=</span> [<span class="st">&#39;sum_amount&#39;</span>, <span class="st">&#39;avg_amount_per_user&#39;</span>, <span class="st">&#39;sum_to_avg_ratio&#39;</span>, <span class="st">&#39;sum_times_avg&#39;</span>]</span>
+<span id="cb40-4"><a href="#cb40-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-5"><a href="#cb40-5" aria-hidden="true" tabindex="-1"></a>month_averages <span class="op">=</span> {}</span>
+<span id="cb40-6"><a href="#cb40-6" aria-hidden="true" tabindex="-1"></a>month_stdevs <span class="op">=</span> {}</span>
+<span id="cb40-7"><a href="#cb40-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-8"><a href="#cb40-8" aria-hidden="true" tabindex="-1"></a>day_of_month_averages <span class="op">=</span> {}</span>
+<span id="cb40-9"><a href="#cb40-9" aria-hidden="true" tabindex="-1"></a>day_of_month_stdevs <span class="op">=</span> {}</span>
+<span id="cb40-10"><a href="#cb40-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-11"><a href="#cb40-11" aria-hidden="true" tabindex="-1"></a>day_of_week_averages <span class="op">=</span> {}</span>
+<span id="cb40-12"><a href="#cb40-12" aria-hidden="true" tabindex="-1"></a>day_of_week_stdevs <span class="op">=</span> {}</span>
+<span id="cb40-13"><a href="#cb40-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-14"><a href="#cb40-14" aria-hidden="true" tabindex="-1"></a>hour_averages <span class="op">=</span> {}</span>
+<span id="cb40-15"><a href="#cb40-15" aria-hidden="true" tabindex="-1"></a>hour_stdevs <span class="op">=</span> {}</span>
+<span id="cb40-16"><a href="#cb40-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-17"><a href="#cb40-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Fill all averages and stdevs with empty lists</span></span>
+<span id="cb40-18"><a href="#cb40-18" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> metric <span class="kw">in</span> our_metrics:</span>
+<span id="cb40-19"><a href="#cb40-19" aria-hidden="true" tabindex="-1"></a>    month_averages[metric] <span class="op">=</span> []</span>
+<span id="cb40-20"><a href="#cb40-20" aria-hidden="true" tabindex="-1"></a>    month_stdevs[metric] <span class="op">=</span> []</span>
+<span id="cb40-21"><a href="#cb40-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-22"><a href="#cb40-22" aria-hidden="true" tabindex="-1"></a>    day_of_month_averages[metric] <span class="op">=</span> []</span>
+<span id="cb40-23"><a href="#cb40-23" aria-hidden="true" tabindex="-1"></a>    day_of_month_stdevs[metric] <span class="op">=</span> []</span>
+<span id="cb40-24"><a href="#cb40-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-25"><a href="#cb40-25" aria-hidden="true" tabindex="-1"></a>    day_of_week_averages[metric] <span class="op">=</span> []</span>
+<span id="cb40-26"><a href="#cb40-26" aria-hidden="true" tabindex="-1"></a>    day_of_week_stdevs[metric] <span class="op">=</span> []</span>
+<span id="cb40-27"><a href="#cb40-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-28"><a href="#cb40-28" aria-hidden="true" tabindex="-1"></a>    hour_averages[metric] <span class="op">=</span> []</span>
+<span id="cb40-29"><a href="#cb40-29" aria-hidden="true" tabindex="-1"></a>    hour_stdevs[metric] <span class="op">=</span> []</span>
+<span id="cb40-30"><a href="#cb40-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-31"><a href="#cb40-31" aria-hidden="true" tabindex="-1"></a><span class="co"># Iterate through all rows in data and add past values for given month, day, day of week, and hour as avg and stdev</span></span>
+<span id="cb40-32"><a href="#cb40-32" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> row <span class="kw">in</span> data.index:</span>
+<span id="cb40-33"><a href="#cb40-33" aria-hidden="true" tabindex="-1"></a>    month <span class="op">=</span> data.at[row, <span class="st">&#39;month&#39;</span>]</span>
+<span id="cb40-34"><a href="#cb40-34" aria-hidden="true" tabindex="-1"></a>    day_of_month <span class="op">=</span> data.at[row, <span class="st">&#39;day&#39;</span>]</span>
+<span id="cb40-35"><a href="#cb40-35" aria-hidden="true" tabindex="-1"></a>    day_of_week <span class="op">=</span> data.at[row, <span class="st">&#39;day_of_week&#39;</span>]</span>
+<span id="cb40-36"><a href="#cb40-36" aria-hidden="true" tabindex="-1"></a>    hour <span class="op">=</span> data.at[row, <span class="st">&#39;hour&#39;</span>]</span>
+<span id="cb40-37"><a href="#cb40-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-38"><a href="#cb40-38" aria-hidden="true" tabindex="-1"></a>    past_data <span class="op">=</span> data[:row]</span>
+<span id="cb40-39"><a href="#cb40-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-40"><a href="#cb40-40" aria-hidden="true" tabindex="-1"></a>    month_data <span class="op">=</span> past_data[past_data[<span class="st">&#39;month&#39;</span>] <span class="op">==</span> month]</span>
+<span id="cb40-41"><a href="#cb40-41" aria-hidden="true" tabindex="-1"></a>    day_of_month_data <span class="op">=</span> past_data[past_data[<span class="st">&#39;day&#39;</span>] <span class="op">==</span> day_of_month]</span>
+<span id="cb40-42"><a href="#cb40-42" aria-hidden="true" tabindex="-1"></a>    day_of_week_data <span class="op">=</span> past_data[past_data[<span class="st">&#39;day_of_week&#39;</span>] <span class="op">==</span> day_of_week]</span>
+<span id="cb40-43"><a href="#cb40-43" aria-hidden="true" tabindex="-1"></a>    hour_data <span class="op">=</span> past_data[past_data[<span class="st">&#39;hour&#39;</span>] <span class="op">==</span> hour]</span>
+<span id="cb40-44"><a href="#cb40-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-45"><a href="#cb40-45" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Find average and stdev for all metrics</span></span>
+<span id="cb40-46"><a href="#cb40-46" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> metric <span class="kw">in</span> our_metrics:</span>
+<span id="cb40-47"><a href="#cb40-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-48"><a href="#cb40-48" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="bu">len</span>(month_data) <span class="op">&gt;</span> <span class="dv">0</span>:</span>
+<span id="cb40-49"><a href="#cb40-49" aria-hidden="true" tabindex="-1"></a>            month_averages[metric].append(month_data[metric].mean())</span>
+<span id="cb40-50"><a href="#cb40-50" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> <span class="bu">len</span>(month_data) <span class="op">&gt;</span> <span class="dv">1</span>:</span>
+<span id="cb40-51"><a href="#cb40-51" aria-hidden="true" tabindex="-1"></a>                month_stdevs[metric].append(month_data[metric].std())</span>
+<span id="cb40-52"><a href="#cb40-52" aria-hidden="true" tabindex="-1"></a>            <span class="cf">else</span>:</span>
+<span id="cb40-53"><a href="#cb40-53" aria-hidden="true" tabindex="-1"></a>                month_stdevs[metric].append(<span class="dv">1</span>)</span>
+<span id="cb40-54"><a href="#cb40-54" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
+<span id="cb40-55"><a href="#cb40-55" aria-hidden="true" tabindex="-1"></a>            month_averages[metric].append(data.at[index, metric])</span>
+<span id="cb40-56"><a href="#cb40-56" aria-hidden="true" tabindex="-1"></a>            month_stdevs[metric].append(<span class="dv">1</span>)</span>
+<span id="cb40-57"><a href="#cb40-57" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-58"><a href="#cb40-58" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="bu">len</span>(day_of_month_data) <span class="op">&gt;</span> <span class="dv">0</span>:</span>
+<span id="cb40-59"><a href="#cb40-59" aria-hidden="true" tabindex="-1"></a>            day_of_month_averages[metric].append(day_of_month_data[metric].mean())</span>
+<span id="cb40-60"><a href="#cb40-60" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> <span class="bu">len</span>(day_of_month_data) <span class="op">&gt;</span> <span class="dv">1</span>:</span>
+<span id="cb40-61"><a href="#cb40-61" aria-hidden="true" tabindex="-1"></a>                day_of_month_stdevs[metric].append(day_of_month_data[metric].std())</span>
+<span id="cb40-62"><a href="#cb40-62" aria-hidden="true" tabindex="-1"></a>            <span class="cf">else</span>:</span>
+<span id="cb40-63"><a href="#cb40-63" aria-hidden="true" tabindex="-1"></a>                day_of_month_stdevs[metric].append(<span class="dv">1</span>)</span>
+<span id="cb40-64"><a href="#cb40-64" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
+<span id="cb40-65"><a href="#cb40-65" aria-hidden="true" tabindex="-1"></a>            day_of_month_averages[metric].append(data.at[index, metric])</span>
+<span id="cb40-66"><a href="#cb40-66" aria-hidden="true" tabindex="-1"></a>            day_of_month_stdevs[metric].append(<span class="dv">1</span>)</span>
+<span id="cb40-67"><a href="#cb40-67" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-68"><a href="#cb40-68" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="bu">len</span>(day_of_week_data) <span class="op">&gt;</span> <span class="dv">0</span>:</span>
+<span id="cb40-69"><a href="#cb40-69" aria-hidden="true" tabindex="-1"></a>            day_of_week_averages[metric].append(day_of_week_data[metric].mean())</span>
+<span id="cb40-70"><a href="#cb40-70" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> <span class="bu">len</span>(day_of_week_data) <span class="op">&gt;</span> <span class="dv">1</span>:</span>
+<span id="cb40-71"><a href="#cb40-71" aria-hidden="true" tabindex="-1"></a>                day_of_week_stdevs[metric].append(day_of_week_data[metric].std())</span>
+<span id="cb40-72"><a href="#cb40-72" aria-hidden="true" tabindex="-1"></a>            <span class="cf">else</span>:</span>
+<span id="cb40-73"><a href="#cb40-73" aria-hidden="true" tabindex="-1"></a>                day_of_week_stdevs[metric].append(<span class="dv">1</span>)</span>
+<span id="cb40-74"><a href="#cb40-74" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
+<span id="cb40-75"><a href="#cb40-75" aria-hidden="true" tabindex="-1"></a>            day_of_week_averages[metric].append(data.at[index, metric])</span>
+<span id="cb40-76"><a href="#cb40-76" aria-hidden="true" tabindex="-1"></a>            day_of_week_stdevs[metric].append(<span class="dv">1</span>)</span>
+<span id="cb40-77"><a href="#cb40-77" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-78"><a href="#cb40-78" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="bu">len</span>(hour_data) <span class="op">&gt;</span> <span class="dv">0</span>:</span>
+<span id="cb40-79"><a href="#cb40-79" aria-hidden="true" tabindex="-1"></a>            hour_averages[metric].append(hour_data[metric].mean())</span>
+<span id="cb40-80"><a href="#cb40-80" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> <span class="bu">len</span>(hour_data) <span class="op">&gt;</span> <span class="dv">1</span>:</span>
+<span id="cb40-81"><a href="#cb40-81" aria-hidden="true" tabindex="-1"></a>                hour_stdevs[metric].append(hour_data[metric].std())</span>
+<span id="cb40-82"><a href="#cb40-82" aria-hidden="true" tabindex="-1"></a>            <span class="cf">else</span>:</span>
+<span id="cb40-83"><a href="#cb40-83" aria-hidden="true" tabindex="-1"></a>                hour_stdevs[metric].append(<span class="dv">1</span>)</span>
+<span id="cb40-84"><a href="#cb40-84" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
+<span id="cb40-85"><a href="#cb40-85" aria-hidden="true" tabindex="-1"></a>            hour_averages[metric].append(data.at[index, metric])</span>
+<span id="cb40-86"><a href="#cb40-86" aria-hidden="true" tabindex="-1"></a>            hour_stdevs[metric].append(<span class="dv">1</span>)</span>
+<span id="cb40-87"><a href="#cb40-87" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-88"><a href="#cb40-88" aria-hidden="true" tabindex="-1"></a><span class="co"># Turn all lists into df columns</span></span>
+<span id="cb40-89"><a href="#cb40-89" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;AVG_sum_amount_MONTH&#39;</span>] <span class="op">=</span> month_averages[<span class="st">&#39;sum_amount&#39;</span>]</span>
+<span id="cb40-90"><a href="#cb40-90" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;AVG_sum_amount_DOM&#39;</span>] <span class="op">=</span> day_of_month_averages[<span class="st">&#39;sum_amount&#39;</span>]</span>
+<span id="cb40-91"><a href="#cb40-91" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;AVG_sum_amount_DOW&#39;</span>] <span class="op">=</span> day_of_week_averages[<span class="st">&#39;sum_amount&#39;</span>]</span>
+<span id="cb40-92"><a href="#cb40-92" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;AVG_sum_amount_HOUR&#39;</span>] <span class="op">=</span> hour_averages[<span class="st">&#39;sum_amount&#39;</span>]</span>
+<span id="cb40-93"><a href="#cb40-93" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-94"><a href="#cb40-94" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;AVG_avg_amount_per_user_MONTH&#39;</span>] <span class="op">=</span> month_averages[<span class="st">&#39;avg_amount_per_user&#39;</span>]</span>
+<span id="cb40-95"><a href="#cb40-95" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;AVG_avg_amount_per_user_DOM&#39;</span>] <span class="op">=</span> day_of_month_averages[<span class="st">&#39;avg_amount_per_user&#39;</span>]</span>
+<span id="cb40-96"><a href="#cb40-96" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;AVG_avg_amount_per_user_DOW&#39;</span>] <span class="op">=</span> day_of_week_averages[<span class="st">&#39;avg_amount_per_user&#39;</span>]</span>
+<span id="cb40-97"><a href="#cb40-97" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;AVG_avg_amount_per_user_HOUR&#39;</span>] <span class="op">=</span> hour_averages[<span class="st">&#39;avg_amount_per_user&#39;</span>]</span>
+<span id="cb40-98"><a href="#cb40-98" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-99"><a href="#cb40-99" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;AVG_sum_to_avg_ratio_MONTH&#39;</span>] <span class="op">=</span> month_averages[<span class="st">&#39;sum_to_avg_ratio&#39;</span>]</span>
+<span id="cb40-100"><a href="#cb40-100" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;AVG_sum_to_avg_ratio_DOM&#39;</span>] <span class="op">=</span> day_of_month_averages[<span class="st">&#39;sum_to_avg_ratio&#39;</span>]</span>
+<span id="cb40-101"><a href="#cb40-101" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;AVG_sum_to_avg_ratio_DOW&#39;</span>] <span class="op">=</span> day_of_week_averages[<span class="st">&#39;sum_to_avg_ratio&#39;</span>]</span>
+<span id="cb40-102"><a href="#cb40-102" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;AVG_sum_to_avg_ratio_HOUR&#39;</span>] <span class="op">=</span> hour_averages[<span class="st">&#39;sum_to_avg_ratio&#39;</span>]</span>
+<span id="cb40-103"><a href="#cb40-103" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-104"><a href="#cb40-104" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;AVG_sum_times_avg_MONTH&#39;</span>] <span class="op">=</span> month_averages[<span class="st">&#39;sum_times_avg&#39;</span>]</span>
+<span id="cb40-105"><a href="#cb40-105" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;AVG_sum_times_avg_DOM&#39;</span>] <span class="op">=</span> day_of_month_averages[<span class="st">&#39;sum_times_avg&#39;</span>]</span>
+<span id="cb40-106"><a href="#cb40-106" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;AVG_sum_times_avg_DOW&#39;</span>] <span class="op">=</span> day_of_week_averages[<span class="st">&#39;sum_times_avg&#39;</span>]</span>
+<span id="cb40-107"><a href="#cb40-107" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;AVG_sum_times_avg_HOUR&#39;</span>] <span class="op">=</span> hour_averages[<span class="st">&#39;sum_times_avg&#39;</span>]</span>
+<span id="cb40-108"><a href="#cb40-108" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-109"><a href="#cb40-109" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;STD_sum_amount_MONTH&#39;</span>] <span class="op">=</span> month_stdevs[<span class="st">&#39;sum_amount&#39;</span>]</span>
+<span id="cb40-110"><a href="#cb40-110" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;STD_sum_amount_DOM&#39;</span>] <span class="op">=</span> day_of_month_stdevs[<span class="st">&#39;sum_amount&#39;</span>]</span>
+<span id="cb40-111"><a href="#cb40-111" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;STD_sum_amount_DOW&#39;</span>] <span class="op">=</span> day_of_week_stdevs[<span class="st">&#39;sum_amount&#39;</span>]</span>
+<span id="cb40-112"><a href="#cb40-112" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;STD_sum_amount_HOUR&#39;</span>] <span class="op">=</span> hour_stdevs[<span class="st">&#39;sum_amount&#39;</span>]</span>
+<span id="cb40-113"><a href="#cb40-113" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-114"><a href="#cb40-114" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;STD_avg_amount_per_user_MONTH&#39;</span>] <span class="op">=</span> month_stdevs[<span class="st">&#39;avg_amount_per_user&#39;</span>]</span>
+<span id="cb40-115"><a href="#cb40-115" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;STD_avg_amount_per_user_DOM&#39;</span>] <span class="op">=</span> day_of_month_stdevs[<span class="st">&#39;avg_amount_per_user&#39;</span>]</span>
+<span id="cb40-116"><a href="#cb40-116" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;STD_avg_amount_per_user_DOW&#39;</span>] <span class="op">=</span> day_of_week_stdevs[<span class="st">&#39;avg_amount_per_user&#39;</span>]</span>
+<span id="cb40-117"><a href="#cb40-117" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;STD_avg_amount_per_user_HOUR&#39;</span>] <span class="op">=</span> hour_stdevs[<span class="st">&#39;avg_amount_per_user&#39;</span>]</span>
+<span id="cb40-118"><a href="#cb40-118" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-119"><a href="#cb40-119" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;STD_sum_to_avg_ratio_MONTH&#39;</span>] <span class="op">=</span> month_stdevs[<span class="st">&#39;sum_to_avg_ratio&#39;</span>]</span>
+<span id="cb40-120"><a href="#cb40-120" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;STD_sum_to_avg_ratio_DOM&#39;</span>] <span class="op">=</span> day_of_month_stdevs[<span class="st">&#39;sum_to_avg_ratio&#39;</span>]</span>
+<span id="cb40-121"><a href="#cb40-121" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;STD_sum_to_avg_ratio_DOW&#39;</span>] <span class="op">=</span> day_of_week_stdevs[<span class="st">&#39;sum_to_avg_ratio&#39;</span>]</span>
+<span id="cb40-122"><a href="#cb40-122" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;STD_sum_to_avg_ratio_HOUR&#39;</span>] <span class="op">=</span> hour_stdevs[<span class="st">&#39;sum_to_avg_ratio&#39;</span>]</span>
+<span id="cb40-123"><a href="#cb40-123" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-124"><a href="#cb40-124" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;STD_sum_times_avg_MONTH&#39;</span>] <span class="op">=</span> month_stdevs[<span class="st">&#39;sum_times_avg&#39;</span>]</span>
+<span id="cb40-125"><a href="#cb40-125" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;STD_sum_times_avg_DOM&#39;</span>] <span class="op">=</span> day_of_month_stdevs[<span class="st">&#39;sum_times_avg&#39;</span>]</span>
+<span id="cb40-126"><a href="#cb40-126" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;STD_sum_times_avg_DOW&#39;</span>] <span class="op">=</span> day_of_week_stdevs[<span class="st">&#39;sum_times_avg&#39;</span>]</span>
+<span id="cb40-127"><a href="#cb40-127" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;STD_sum_times_avg_HOUR&#39;</span>] <span class="op">=</span> hour_stdevs[<span class="st">&#39;sum_times_avg&#39;</span>]</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="21" id="6_6-yhh5bpEU">
+<div class="sourceCode" id="cb41"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Filter data to the columns that will be used to predict, and the target label (anomaly)</span></span>
+<span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-3"><a href="#cb41-3" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> data[[<span class="st">&#39;sum_amount&#39;</span>, <span class="st">&#39;avg_amount_per_user&#39;</span>, <span class="st">&#39;sum_to_avg_ratio&#39;</span>, <span class="st">&#39;sum_times_avg&#39;</span>, </span>
+<span id="cb41-4"><a href="#cb41-4" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;RA_sum_amount&#39;</span>, <span class="st">&#39;RA_avg_amount_per_user&#39;</span>, <span class="st">&#39;RA_sum_to_avg_ratio&#39;</span>, </span>
+<span id="cb41-5"><a href="#cb41-5" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;RS_sum_amount&#39;</span>, <span class="st">&#39;RS_avg_amount_per_user&#39;</span>, <span class="st">&#39;RS_sum_to_avg_ratio&#39;</span>,</span>
+<span id="cb41-6"><a href="#cb41-6" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;AVG_sum_amount_MONTH&#39;</span>, <span class="st">&#39;AVG_sum_amount_DOM&#39;</span>, <span class="st">&#39;AVG_sum_amount_DOW&#39;</span>, <span class="st">&#39;AVG_sum_amount_HOUR&#39;</span>, </span>
+<span id="cb41-7"><a href="#cb41-7" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;AVG_avg_amount_per_user_MONTH&#39;</span>, <span class="st">&#39;AVG_avg_amount_per_user_DOM&#39;</span>, <span class="st">&#39;AVG_avg_amount_per_user_DOW&#39;</span>, <span class="st">&#39;AVG_avg_amount_per_user_HOUR&#39;</span>, </span>
+<span id="cb41-8"><a href="#cb41-8" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;AVG_sum_to_avg_ratio_MONTH&#39;</span>, <span class="st">&#39;AVG_sum_to_avg_ratio_DOM&#39;</span>, <span class="st">&#39;AVG_sum_to_avg_ratio_DOW&#39;</span>, <span class="st">&#39;AVG_sum_to_avg_ratio_HOUR&#39;</span>,  </span>
+<span id="cb41-9"><a href="#cb41-9" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;STD_sum_amount_MONTH&#39;</span>, <span class="st">&#39;STD_sum_amount_DOM&#39;</span>, <span class="st">&#39;STD_sum_amount_DOW&#39;</span>, <span class="st">&#39;STD_sum_amount_HOUR&#39;</span>,</span>
+<span id="cb41-10"><a href="#cb41-10" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;STD_avg_amount_per_user_MONTH&#39;</span>, <span class="st">&#39;STD_avg_amount_per_user_DOM&#39;</span>, <span class="st">&#39;STD_avg_amount_per_user_DOW&#39;</span>, <span class="st">&#39;STD_avg_amount_per_user_HOUR&#39;</span>,</span>
+<span id="cb41-11"><a href="#cb41-11" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;STD_sum_to_avg_ratio_MONTH&#39;</span>, <span class="st">&#39;STD_sum_to_avg_ratio_DOM&#39;</span>, <span class="st">&#39;STD_sum_to_avg_ratio_DOW&#39;</span>, <span class="st">&#39;STD_sum_to_avg_ratio_HOUR&#39;</span>, </span>
+<span id="cb41-12"><a href="#cb41-12" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;anomaly&#39;</span>]]</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="37" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="xohm856Nn1CG" data-outputId="721a9c8b-bae4-4a3c-9774-b1e7757f9818">
+<div class="sourceCode" id="cb42"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Generate model to predict anomaly</span></span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-3"><a href="#cb42-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Split data into predictors and anomaly</span></span>
+<span id="cb42-4"><a href="#cb42-4" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> data.drop(columns<span class="op">=</span>[<span class="st">&#39;anomaly&#39;</span>])</span>
+<span id="cb42-5"><a href="#cb42-5" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> data[<span class="st">&#39;anomaly&#39;</span>]</span>
+<span id="cb42-6"><a href="#cb42-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-7"><a href="#cb42-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Split into train and test</span></span>
+<span id="cb42-8"><a href="#cb42-8" aria-hidden="true" tabindex="-1"></a>x_train, x_test, y_train, y_test <span class="op">=</span> train_test_split(x, y, test_size<span class="op">=</span><span class="fl">.3</span>, stratify<span class="op">=</span>y, random_state<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb42-9"><a href="#cb42-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-10"><a href="#cb42-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Create XGB Classifier and predict on testing set</span></span>
+<span id="cb42-11"><a href="#cb42-11" aria-hidden="true" tabindex="-1"></a>xgb_clf <span class="op">=</span> xgb.XGBClassifier(learning_rate<span class="op">=</span><span class="fl">.01</span>, subsample<span class="op">=</span><span class="fl">0.2</span>)</span>
+<span id="cb42-12"><a href="#cb42-12" aria-hidden="true" tabindex="-1"></a>xgb_clf.fit(x_train, y_train)</span>
+<span id="cb42-13"><a href="#cb42-13" aria-hidden="true" tabindex="-1"></a>xgb_predictions <span class="op">=</span> xgb_clf.predict(x_test)</span>
+<span id="cb42-14"><a href="#cb42-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-15"><a href="#cb42-15" aria-hidden="true" tabindex="-1"></a>train_predictions <span class="op">=</span> xgb_clf.predict(x_train)</span>
+<span id="cb42-16"><a href="#cb42-16" aria-hidden="true" tabindex="-1"></a>generate_results(y_train, train_predictions, <span class="st">&#39;XGB TRAIN&#39;</span>)</span>
+<span id="cb42-17"><a href="#cb42-17" aria-hidden="true" tabindex="-1"></a>generate_results(y_test, xgb_predictions, <span class="st">&#39;XGB&#39;</span>)</span>
+<span id="cb42-18"><a href="#cb42-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-19"><a href="#cb42-19" aria-hidden="true" tabindex="-1"></a>precision, recall, thresholds <span class="op">=</span> precision_recall_curve(y_test, xgb_predictions)</span>
+<span id="cb42-20"><a href="#cb42-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-21"><a href="#cb42-21" aria-hidden="true" tabindex="-1"></a><span class="co">## WITH SMOTE</span></span>
+<span id="cb42-22"><a href="#cb42-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-23"><a href="#cb42-23" aria-hidden="true" tabindex="-1"></a><span class="co"># Generate synthetic data points to help with significant underbalance in anomalies</span></span>
+<span id="cb42-24"><a href="#cb42-24" aria-hidden="true" tabindex="-1"></a>oversample <span class="op">=</span> SMOTE(random_state <span class="op">=</span> <span class="dv">1</span>, sampling_strategy<span class="op">=</span><span class="fl">.1</span>)</span>
+<span id="cb42-25"><a href="#cb42-25" aria-hidden="true" tabindex="-1"></a>x, y <span class="op">=</span> oversample.fit_resample(x, y)</span>
+<span id="cb42-26"><a href="#cb42-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-27"><a href="#cb42-27" aria-hidden="true" tabindex="-1"></a><span class="co"># Split data into train and test</span></span>
+<span id="cb42-28"><a href="#cb42-28" aria-hidden="true" tabindex="-1"></a>x_train, x_test, y_train, y_test <span class="op">=</span> train_test_split(x, y, test_size<span class="op">=</span><span class="fl">.3</span>, stratify<span class="op">=</span>y, random_state<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb42-29"><a href="#cb42-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-30"><a href="#cb42-30" aria-hidden="true" tabindex="-1"></a><span class="co"># Create XGB Classifier and predict on testing set</span></span>
+<span id="cb42-31"><a href="#cb42-31" aria-hidden="true" tabindex="-1"></a>xgb_clf <span class="op">=</span> xgb.XGBClassifier(learning_rate<span class="op">=</span><span class="fl">.01</span>, subsample<span class="op">=</span><span class="fl">0.2</span>)</span>
+<span id="cb42-32"><a href="#cb42-32" aria-hidden="true" tabindex="-1"></a>xgb_clf.fit(x_train, y_train)</span>
+<span id="cb42-33"><a href="#cb42-33" aria-hidden="true" tabindex="-1"></a>xgb_predictions <span class="op">=</span> xgb_clf.predict(x_test)</span>
+<span id="cb42-34"><a href="#cb42-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-35"><a href="#cb42-35" aria-hidden="true" tabindex="-1"></a>train_predictions <span class="op">=</span> xgb_clf.predict(x_train)</span>
+<span id="cb42-36"><a href="#cb42-36" aria-hidden="true" tabindex="-1"></a>generate_results(y_train, train_predictions, <span class="st">&#39;XGB TRAIN with SMOTE&#39;</span>)</span>
+<span id="cb42-37"><a href="#cb42-37" aria-hidden="true" tabindex="-1"></a>generate_results(y_test, xgb_predictions, <span class="st">&#39;XGB with SMOTE&#39;</span>)</span>
+<span id="cb42-38"><a href="#cb42-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-39"><a href="#cb42-39" aria-hidden="true" tabindex="-1"></a>precision, recall, thresholds <span class="op">=</span> precision_recall_curve(y_test, xgb_predictions)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>XGB TRAIN results:
+	Accuracy: 0.9988359911535327
+	Precision: 0.88
+	Recall: 0.7586206896551724
+	F1: 0.8148148148148148
+Confusion Matrix:
+[[8559    3]
+ [   7   22]]
+
+
+XGB results:
+	Accuracy: 0.9994569644311703
+	Precision: 0.9166666666666666
+	Recall: 0.9166666666666666
+	F1: 0.9166666666666666
+Confusion Matrix:
+[[3670    1]
+ [   1   11]]
+
+
+XGB TRAIN with SMOTE results:
+	Accuracy: 0.9963902749761121
+	Precision: 0.9835294117647059
+	Recall: 0.9766355140186916
+	F1: 0.9800703399765534
+Confusion Matrix:
+[[8549   14]
+ [  20  836]]
+
+
+XGB with SMOTE results:
+	Accuracy: 0.9955412434976467
+	Precision: 0.9833795013850416
+	Recall: 0.9673024523160763
+	F1: 0.9752747252747253
+Confusion Matrix:
+[[3664    6]
+ [  12  355]]
+
+
+</code></pre>
+</div>
+</div>
+<div class="cell code" id="A5kyMyU7pOLW">
+<div class="sourceCode" id="cb44"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Write data to csv</span></span>
+<span id="cb44-2"><a href="#cb44-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb44-3"><a href="#cb44-3" aria-hidden="true" tabindex="-1"></a>data.to_csv(<span class="st">&#39;/content/drive/MyDrive/IndependentProjects/BOSS_AI_PROJECT/Prepared_Data.csv&#39;</span>)</span></code></pre></div>
+</div>
+</body>
+</html>
